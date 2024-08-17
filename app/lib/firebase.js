@@ -3,7 +3,7 @@ import {getAuth, GoogleAuthProvider, GithubAuthProvider} from 'firebase/auth';
 
 const firebaseConfig = {
     apiKey: "AIzaSyCq804ZoZu_Jf5vt75MmlZnQzdOMm0U9hE",
-    authDomain: "customer-support-ai-c3599.firebaseapp.com",
+    authDomain: "runner-ai-dqk4.vercel.app",
     projectId: "customer-support-ai-c3599",
     storageBucket: "customer-support-ai-c3599.appspot.com",
     messagingSenderId: "722340203892",
