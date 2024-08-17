@@ -12,7 +12,7 @@ export default function SignIn() {
   const handleSignIn = async (provider) => {
     try {
       await signInWithPopup(auth, provider);
-      router.push('/');  // Redirect to the home page or another page after successful sign-in
+      router.push('/Home');  // Redirect to the home page or another page after successful sign-in
     } catch (error) {
       console.error('Error signing in: ', error);
     }
@@ -21,7 +21,7 @@ export default function SignIn() {
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
       if (user) {
-        router.push('/');  // Redirect to home if already signed in
+        router.push('/Home');  // Redirect to home if already signed in
       }
     });
   }, [router]);
