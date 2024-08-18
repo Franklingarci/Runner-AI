@@ -15,7 +15,7 @@ export default NextAuth({
     }),
   ],
   pages: {
-    signIn: '/auth/signin',  // Custom sign-in page (if any)
+    signIn: '/signin',  // Custom sign-in page (if any)
   },
   callbacks: {
     async signIn({ user, account, profile }) {
